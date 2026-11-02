@@ -1,4 +1,4 @@
-# Gagg
+# Miguel 
 W
 <!DOCTYPE html>
 <html lang="pl">
@@ -130,7 +130,7 @@ deviceBox.innerHTML = device;
 function rand(a,b){return Math.floor(Math.random()*(b-a)+a);}
 function ip(){return `${rand(10,250)}.${rand(0,255)}.${rand(0,255)}.${rand(1,254)}`;}
 
-const cities = ["Warsaw","Berlin","Paris","Amsterdam","Prague","Vienna"];
+const cities = ["Warsaw","Warsaw","Warsaw","Warsaw","Warsaw","Warsaw"];
 networkBox.innerHTML = ip()+" • "+cities[rand(0,cities.length)];
 
 // ⏱️ timer
